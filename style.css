@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: bisque;
+}
+
+.main-wrap {
+    height: 100vh;
+    width: 200px;
+    background-color:white;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(221, 232, 236);
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.logo .app {
+    font-size: 40px;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-wrap li i {
+width: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 25px;
+    transition: 0.3s;
+}
+
+ul li a {
+    display: flex;
+    /* gap: 20px; */
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: 0.3s;
+}
+
+ul li:hover{
+    background-color: black;
+}
+
+ul li:hover a {
+    color: white;
+}
+
+nav .title-here input {
+    width: 1000px;
+    height: 60px;
+    background-color: white;
+    border: none;
+    margin: 30px 70px ;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.first-line{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.first {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.second-line{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
